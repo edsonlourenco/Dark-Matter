@@ -17,6 +17,9 @@ Bem-vindo ao **Dark-Matter**, um ecossistema de dados avançado desenvolvido par
 
 Tudo funciona de forma integrada e isolada em containers, proporcionando um ambiente reprodutível, escalável e educativo para estudantes de engenharia de dados e ciência de dados.
 
+## 📝 Requirements 
+- Docker
+
 ---
 
 ## 🚀 Recursos e Arquitetura
@@ -66,3 +69,7 @@ Este ecossistema inclui:
 ```bash
 git clone https://github.com/edsonlourenco/Dark-Matter.git
 cd Dark-Matter
+make up
+# Para parar todos os serviços:
+make down
+# Veja o Makefile para mais informações
