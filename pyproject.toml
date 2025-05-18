@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "Dartk-Matter"
+version = "0.1.0"
+description = ""
+authors = ["Edson Lourenço <edson.lourenco.dev@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+pyspark = "==3.5.5"
+faker = "==37.1.0"
+apache-airflow = "==2.8.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
